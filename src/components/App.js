@@ -47,7 +47,7 @@ const App = () => {
     if (renderBall) return <div className="ball" style={ballPosition}></div>;
     else
       return (
-        <button onClick={startGame} className="reset">
+        <button onClick={startGame} className="start">
           Start
         </button>
       );
